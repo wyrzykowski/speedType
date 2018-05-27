@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>SpeedType</title>
+	<meta name="description" content="Check your speed of typing">
+	<meta name="keywords" content="type,speed, how,is,your"> <!-- max 150 160 słów -->
+ 	<meta name="author" content="Karol">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1"> <!-- wtyczka w IE google frame -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	
+</head>
+
+<body onload="start()">
+<div id="container">
+<head>
+<h1 id="head_title">Check Your Speed of Typing</h1>
+</head>
+
+	<div id="content">
+		
+		<div id="text_for_input">
+		Some CSS properties are animatable, meaning that they can be used in animations and transitions.
+		</div>
+		
+		
+				<div class="watch" id="for_time">Time:</div> <div class="watch" id="speed">Speed:</div>
+	
+		
+		<div id="place_for_inputs">
+		<textarea onkeyup="inputing()" rows="9" cols="46" id="inputer" placeholder="It'll starts when you begin typing..."></textarea>
+		</div>
+		<div id="text_area">
+		
+		</div>
+		<div id="well_done">
+		
+		</div>
+	</div>
+</div>
+</body>
+</html>
